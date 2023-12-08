@@ -12,7 +12,7 @@ public class Tree {
      * Метод печатает полноценное дерево директории
      * @param file путь к директории
      * @param indent отступы
-     * @param indicator индикатор (файл или папка)
+     * @param indicator индикатор директорий
      * @param isLast флаг следующего элемента дерева
      */
     static void print(File file, String indent, String indicator, boolean isLast){
